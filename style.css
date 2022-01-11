@@ -1,0 +1,45 @@
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;
+
+}  
+html, body, .bg {
+height: 100%;
+  margin: 0;  
+  color: white;
+   /* The image used */
+   background-color: #ffffff;
+   background-image: url("data:image/svg+xml,%3Csvg width='16' height='20' viewBox='0 0 16 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23024cff' fill-opacity='0.2' fill-rule='evenodd'%3E%3Cpath d='M8 0v20L0 10M16 0v10L8 0M16 10v10H8'/%3E%3C/g%3E%3C/svg%3E"); /* Full height */
+  height: 10%; 
+
+  /* Center and scale the image nicely */ 
+ 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-attachment: fixed}  
+
+/*Whatsapp*/  
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+    z-index:100;
+}
+.float:hover {
+	text-decoration: none;
+	color: #25d366;
+    background-color:#fff;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
